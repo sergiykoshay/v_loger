@@ -1,0 +1,15 @@
+﻿.footer {
+    background-color: $color-primary-0;
+    font-family:$font-header;
+    padding: 12px 30px;
+
+    & .copyright {
+
+        &:before {
+            color: $color-primary-4;
+            content: "\00A9";
+            float: left;
+            padding: 0 10px;
+        }
+    }
+}
